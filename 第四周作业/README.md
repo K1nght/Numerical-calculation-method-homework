@@ -1,6 +1,6 @@
 ### <center>个人作业</center>
 
-1.  设$a=1000$, 取4位有效数字用如下两个等价的式子
+1.  设<img src="http://latex.codecogs.com/gif.latex?a=1000" />, 取4位有效数字用如下两个等价的式子
    $$
    x=\sqrt{a+1}-\sqrt{a}, \; x=\frac{1}{\sqrt{a+1}+\sqrt{a}}
    $$

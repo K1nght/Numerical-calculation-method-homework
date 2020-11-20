@@ -23,7 +23,8 @@
    c) <img src="http://latex.codecogs.com/gif.latex?\sin(x)-\tan(x)" />.
 
 5. 函数求值问题的绝对条件数定义为
-<img src="http://latex.codecogs.com/gif.latex?\begin{aligned}\text{cond}&=\frac{\|\text{问题的解的变化量}\|}{\|\text{输入数据的变化量}\|}\\&=\frac{\vert f(\hat{x}）-f(x)\vert}{\vert\hat{x}-x\vert}\end{aligned}" />
+<img src="http://latex.codecogs.com/gif.latex?\text{cond}&=\frac{\|\text{问题的解的变化量}\|}{\|\text{输入数据的变化量}\|}" />
+<img src="http://latex.codecogs.com/gif.latex?&=\frac{\vert f(\hat{x}）-f(x)\vert}{\vert\hat{x}-x\vert}" />
    $$
    \begin{aligned}
    \text{cond}&=\frac{\|\text{问题的解的变化量}\|}{\|\text{输入数据的变化量}\|}\\

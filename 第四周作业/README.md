@@ -1,8 +1,7 @@
 ### <center>个人作业</center>
 
 1.  设<img src="http://latex.codecogs.com/gif.latex?a=1000" />, 取4位有效数字用如下两个等价的式子
-  <img src="http://latex.codecogs.com/gif.latex?x=\sqrt{a+1}-\sqrt{a}, \; x=\frac{1}{\sqrt{a+1}+\sqrt{a}}" />
-   进行计算， 求<img src="http://latex.codecogs.com/gif.latex?x" />的近似值<img src="http://latex.codecogs.com/gif.latex?\hat{x}" />, 并将结果与准确值<img src="http://latex.codecogs.com/gif.latex?x=0.015 807 437\dots" />进行比较，你的结果各有多少位有效数字？
+  <img src="http://latex.codecogs.com/gif.latex?x=\sqrt{a+1}-\sqrt{a}, \; x=\frac{1}{\sqrt{a+1}+\sqrt{a}}" />进行计算， 求<img src="http://latex.codecogs.com/gif.latex? x" />的近似值<img src="http://latex.codecogs.com/gif.latex?\hat{x}" />, 并将结果与准确值<img src="http://latex.codecogs.com/gif.latex?x=0.015 807 437\dots" />进行比较，你的结果各有多少位有效数字？
 
 2. 序列<img src="http://latex.codecogs.com/gif.latex?\{y_k\}" />满足递推关系<img src="http://latex.codecogs.com/gif.latex?y_n=5y_{n-1}-2, n=1,2,\dots" />. 若取<img src="http://latex.codecogs.com/gif.latex?y_0=1.73" />, 计算到<img src="http://latex.codecogs.com/gif.latex?y_{10}" />时， 将会产生多大的误差? 
 
@@ -17,13 +16,17 @@
 
 4. 寻找不严重丢失有效位的方法来计算下列函数
 
-   a) $\sqrt{x^2+1}-x$;
+   a) <img src="http://latex.codecogs.com/gif.latex?\sqrt{x^2+1}-x" />;
 
-   b) $e^x-x$;
+   b) <img src="http://latex.codecogs.com/gif.latex?e^x-x" />;
 
-   c) $\sin(x)-\tan(x)$.
+   c) <img src="http://latex.codecogs.com/gif.latex?\sin(x)-\tan(x)" />.
 
 5. 函数求值问题的绝对条件数定义为
+<img src="http://latex.codecogs.com/gif.latex?\begin{aligned}
+   \text{cond}&=\frac{\|\text{问题的解的变化量}\|}{\|\text{输入数据的变化量}\|}\\
+   &=\frac{\vert f(\hat{x}）-f(x)\vert}{\vert\hat{x}-x\vert}
+   \end{aligned}" />
    $$
    \begin{aligned}
    \text{cond}&=\frac{\|\text{问题的解的变化量}\|}{\|\text{输入数据的变化量}\|}\\
